@@ -7,9 +7,11 @@ Sketch plugin to generate iOS view code
 exports your views as UIBezierPath as swift code
 so you'll have something like
 
-    let path = UIBezierPath()
-    path.moveToPoint(...)
-    ...
+```swift
+let path = UIBezierPath()
+path.moveToPoint(...)
+...
+```
 
 #### Why?
 It's very annoying to draw in iOS in code. But it's annoying to draw in sketch and export it as a picture because you can no longer use the CGRect dimensions from iOS. You're stuck with whatever dimensions you picked in sketch.
